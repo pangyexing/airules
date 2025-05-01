@@ -1,0 +1,15 @@
+---
+description: Applies general Python style guidelines including functional programming preferences and naming conventions.
+globs: **/*.py
+alwaysApply: false
+---
+- Write concise, technical responses with accurate Python examples.
+- Prefer iteration and modularization over code duplication.
+- Write simple and clear code; avoid unnecessary complexity.
+- Prefer list comprehensions for creating lists when appropriate.
+- Utilize type hints for better code clarity and type checking.
+- Limit the use of global variables to reduce side effects.
+- Choose descriptive variable, function, and class names.
+- Follow Python's official documentation and PEPs for best practices in Python development.
+- Maximum line length of 88 characters (Black default)
+- Use absolute imports over relative imports

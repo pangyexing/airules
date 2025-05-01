@@ -1,0 +1,9 @@
+---
+description: Code Quality Guidelines
+globs: 
+alwaysApply: false
+---
+# Code Quality Guidelines
+
+## No Whitespace Suggestions
+Don't suggest whitespace changes.

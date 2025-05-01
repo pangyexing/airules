@@ -1,0 +1,6 @@
+---
+description: Specifies that the project must always utilize Python version >=3.8 for all Python code.
+globs: **/*.py
+alwaysApply: false
+---
+- Always use python>=3.8
