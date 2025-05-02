@@ -1,0 +1,8 @@
+---
+description: Requires Google-style docstrings for all Python functions, methods, and classes.
+globs: **/*.py
+alwaysApply: false
+---
+- All functions, methods, and classes must have Google-style docstrings.
+- Docstrings should thoroughly explain their purpose, parameters, return values, and any exceptions raised.
+- Include usage examples in docstrings where helpful.

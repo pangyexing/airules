@@ -1,0 +1,22 @@
+---
+description: Applies Python coding standards, best practices, and style guidelines for all Python files.
+globs: **/*.*.py
+alwaysApply: false
+---
+## Python-Specific Code Style
+
+- Maximum line length of 88 characters (Black default).
+- Use absolute imports over relative imports.
+
+## Python Variable Naming and Style
+
+- Use descriptive variable names with auxiliary verbs (e.g., is_active, has_permission).
+- Avoid unnecessary curly braces in conditional statements.
+- For single-line statements in conditionals, omit curly braces.
+- Use concise, one-line syntax for simple conditional statements (e.g., if condition: do_something()).
+
+## Python Best Practices
+
+- Follow Python's official documentation and PEPs for best practices.
+- Prefer list comprehensions for creating lists when appropriate.
+- Limit the use of global variables to reduce side effects.

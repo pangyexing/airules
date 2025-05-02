@@ -1,0 +1,13 @@
+---
+description: Guidelines for implementing comprehensive testing across all projects, with a focus on Python applications using pytest.
+globs: **/tests/**/*.*
+alwaysApply: false
+---
+- Use pytest for testing.
+- Implement unit tests to ensure code reliability and maintainability.
+- Aim for high test coverage (90% or higher).
+- Test both common cases and edge cases.
+- Keep tests independent of each other.
+- Make tests deterministic (same input always gives same output).
+- Write tests that are fast and efficient.
+- Avoid test code duplication.

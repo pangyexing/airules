@@ -1,0 +1,9 @@
+---
+description: Applies to the project README file, focusing on providing a simple and usable experience.
+globs: README.md
+alwaysApply: false
+---
+- A comprehensive system for stock analysis and prediction using deep learning , reinforcement learning and ppl techniques. 
+- This project focuses on Chinese A-share markets.
+- Implemented state-of-the-art algorithms and a robust experimental analysis system,
+

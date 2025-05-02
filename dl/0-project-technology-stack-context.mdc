@@ -1,0 +1,10 @@
+---
+description: Provides a comprehensive overview of the technologies used in the project to help with understanding the environment.
+globs: **/*
+alwaysApply: false
+---
+This project utilizes the following technologies:
+- Machine Learning: PyTorch>=2.7 for deep learning, Stable-Baselines3 for reinforcement learning ,pymc>=5 for ppl.
+- Data APIs: Tushare for real Chinese market data, Check the official docs if/when needed, Akshare (optional),baostock (optional)
+- Experiment Tracking: Weights & Biases, TensorBoard (optional)
+- Database: postgresql.

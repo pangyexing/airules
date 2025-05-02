@@ -1,0 +1,12 @@
+---
+description: Employs the logging module judiciously to log important events, warnings, and errors.
+globs: **/*.py
+alwaysApply: false
+---
+- **Logging:** Employ the `logging` module judiciously to log important events, warnings, and errors.
+- Include relevant context information in log messages.
+- Use appropriate log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+- Configure logging to include timestamps, log levels, and source information.
+- Implement structured logging where appropriate.
+- Log both the exception and its traceback during error handling.
+- Use correlation IDs to track requests across services.
